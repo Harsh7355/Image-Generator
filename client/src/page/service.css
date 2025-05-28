@@ -1,0 +1,60 @@
+/* Main container spacing (keep white background) */
+.section-services {
+  padding: 2rem 1rem;
+  background-color: white; /* pure white background */
+}
+
+/* Centered content container */
+.section-services .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 3-column responsive grid */
+.grid-three-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Image */
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Card content */
+.card-details {
+  padding: 1rem;
+}
+
+/* Two-column inside card for provider and price */
+.grid-two-cols {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+/* Heading */
+.main-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+}

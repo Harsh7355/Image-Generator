@@ -1,0 +1,71 @@
+.admin-service-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.admin-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.services-table th,
+.services-table td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.services-table th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.services-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.no-data {
+  text-align: center;
+  padding: 1rem;
+  color: #888;
+}
+.edit-form {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.edit-form input {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.edit-form .btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-form .secondary-btn {
+  background-color: #ddd;
+}
